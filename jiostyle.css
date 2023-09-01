@@ -1,0 +1,387 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: blue;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar img{
+    position: relative;
+    left: 130px;
+}
+nav #navbar ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 700px;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+#searchbar{
+    position: relative;
+    right: 100px;
+    padding: 15px;
+    display: flex;
+    background-color: darkblue;
+    border-radius: 50px;
+    border-color: white;   
+}
+#searchbar input{
+    background-color: transparent;
+    border: none;
+    
+}
+#userlogo {
+    position: relative;
+    right: 250px;
+    background-color: white;
+    border-radius: 50%;
+    width: 30px; 
+    height: 30px;
+    align-items: center;
+}
+#userlogo i{
+    position: relative;
+     top: 4px;
+     left: 8px;
+}
+/* <-------nav bar ended----------------> */
+
+#flexboard1{
+    background-image: url(/jioimage.png);
+
+    height: 390px;
+    width: 1438px;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+#head1{
+    font-weight: 900;
+    color: white;
+    font-size: 50px;
+}
+#head2{
+    font-weight: 900;
+    color: white;
+    font-size: 25px;
+
+}
+.fle{
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+
+}
+#butt1{
+    background-color: blue ;
+}
+
+#iconsjio{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+#ambani{
+  
+    height: 140px;
+    width: 800px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.neeta{
+    flex-direction: column;
+    text-decoration: none;
+    height: 90px;
+    width: 120px;
+    display: flex;
+    
+}
+
+.icons_{
+    height: 65px;
+    width: 65px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+
+.icons_ i{
+    width: 60px;
+    height: 190px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.icons_cont{
+    height: 30px;
+    width: 85px;
+    color: black;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+    text-decoration: none;
+    font-weight: 530;
+    
+}
+
+.ln_main i{
+    color: #0F3CC9;
+    margin-top: 14px;
+    text-align: center;
+    font-size: 40px;
+    align-items: center;
+    height: 30px;
+}
+
+    
+#cardcont{
+    font-weight: 900;
+    text-align: center;
+
+    
+}
+#cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    height: 450px;
+    margin-left: 150px;
+}
+#headdd{
+    font-size: 45px;
+}
+#headdd1{
+    font-size: 40px;
+
+}
+#card1{
+    width: 370px;
+    height: 370px;
+}
+#card2{
+    width: 370px;
+    height: 370px;
+}
+#card3{
+    width: 370px;
+    height: 370px;
+}
+.cardset{
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #0F3CC9;
+    color: white;
+    position: absolute;
+}
+
+
+
+#jiobuild{
+
+    height: 400px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-image: url(/carrier-desktop.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#padhla{
+    display: center;
+    padding-left: 10px;
+    margin-left: 20px;
+    width: 500px;
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+
+#padhla2{
+    display: block;
+    width: 309px;
+    margin-left: 22px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#padhla3{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+#differnce{
+    font-size: 40px;
+    font-weight: 900 ;
+    text-align: center;
+}
+
+#abcd{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    flex-direction: row;
+}
+
+/* aunty */
+#aunty{
+    background-image: url(/business-desktop.webp);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 250px;
+    height: 400px;
+    width: 1000px;
+    display: flex;
+}
+
+#auntytext{
+    height: 400px ;
+    width: 400px ;
+    padding: 60px;
+
+}
+#auntytext1{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    
+}
+#auntytext2{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+#auntybutt{
+    background-color: #0F3CC9;
+    border-radius: 50px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+}
+
+
+
+
+/* footer  */
+#foot1{
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 1150px;
+    height: 350px;
+}
+#footer1{
+    display: flex;
+    justify-content: space-around;
+}
+#footer1 li{
+    list-style: none;
+    font-size: 18px;
+}
+
+.headfoot{
+    margin-left: 40px;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid black;
+}
+#copyright{
+    width: 780px;
+    height: 15px;
+
+}
+.endtags{
+    text-decoration: none;
+    margin: 15px;
+    margin-top: 20px;
+    color: black;
+}
+.footicon{
+    font-size: 20px;
+    font-weight: 900;
+}
+.footicon img{
+    border-radius: 30px;
+}
+.footicon i{
+    width: 30px;
+    height: 30px ;
+    background-size: 20px;
+    align-items: center;
+    padding-top: 3px;
+    padding-left: 2px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
